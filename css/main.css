@@ -13,20 +13,43 @@
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 5px;
     max-width: 232px;
+    margin: 0 auto;
 }
 
-main.content {
+/* main.content {
     display: flex;
     flex-direction: column;
     align-self: center;
     max-width: 564px;
+} */
+div.input {
+    border: 1px solid;
+    border-radius: 30px;
+    width: 380px;
+    height: 30px;
+}
+
+input.input {
+    border: transparent;
+    width: 100%;
+    height: inherit;
+}
+
+input.input:focus {
+    border: none;
+}
+
+.search-input {
+    border-radius: 30px;
+    width: 400px;
+    height: 28px;
 }
 
 .search-form {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    width: 100%;
+    align-items: center;
+    /* width: 100%; */
 }
 
 .blue {
