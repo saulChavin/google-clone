@@ -13,3 +13,19 @@
 header.main {
     text-align: right;
 }
+
+.blue {
+    color: #4285F4;
+}
+
+.red {
+    color: #EA4335;
+}
+
+.yellow {
+    color: #FBBC05;
+}
+
+.green {
+    color: #34A853;
+}
