@@ -14,6 +14,12 @@ header.main {
     text-align: right;
 }
 
+.footer-container {
+    text-align: start;
+    font-size: large;
+    background-color: #F2F2F2;
+}
+
 .blue {
     color: #4285F4;
 }
