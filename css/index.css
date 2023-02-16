@@ -1,4 +1,6 @@
-* {
+
+body, html {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -6,12 +8,23 @@
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
+    height: 100%;
 }
 
 header.main {
-    text-align: right;
+    display: inline-block;
+    /* flex-grow: 1; */
+    height: 60px;
+}
+
+nav.main {
+    float: right;
+    height: 48px;
+}
+
+.shrink0 {
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .footer-container {
