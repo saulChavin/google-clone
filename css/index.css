@@ -33,18 +33,11 @@ nav.main {
     background-color: #F2F2F2;
 }
 
-.blue {
-    color: #4285F4;
+.links {
+    text-decoration: none;
+    color:#121212;
 }
 
-.red {
-    color: #EA4335;
-}
-
-.yellow {
-    color: #FBBC05;
-}
-
-.green {
-    color: #34A853;
+.links:hover {
+    text-decoration: underline;
 }

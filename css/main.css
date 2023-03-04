@@ -57,13 +57,19 @@ input.search-input {
     align-items: center;
 }
 
+.buttons-container {
+    padding-top: 18px;
+}
+
 .form-button {
     padding-left: 16px;
     padding-right: 16px;
     margin: 11px 4px;
     height: 36px;
     border: none;
-    font-size: large;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #70757a37;
 }
 
 .country-footer {
