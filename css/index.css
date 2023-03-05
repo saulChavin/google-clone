@@ -39,6 +39,7 @@ nav.main {
 .links {
     text-decoration: none;
     color:#121212cb;
+    padding-left: 15px;
 }
 
 .links:hover {
