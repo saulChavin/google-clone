@@ -14,12 +14,15 @@ body, html {
 header.main {
     display: inline-block;
     /* flex-grow: 1; */
-    height: 60px;
+    /* height: 60px; */
+    line-height: normal;
 }
 
 nav.main {
     float: right;
     height: 48px;
+   display: flex;
+   align-items: center;
 }
 
 .shrink0 {
@@ -35,7 +38,7 @@ nav.main {
 
 .links {
     text-decoration: none;
-    color:#121212;
+    color:#121212cb;
 }
 
 .links:hover {
