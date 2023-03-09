@@ -9,6 +9,7 @@ body, html {
     display: flex;
     flex-direction: column;
     height: 100%;
+    /* min-width: 320px */
 }
 
 header.main {
@@ -38,6 +39,7 @@ nav.main {
 
 .links {
     text-decoration: none;
+    text-align: center;
     color:#121212cb;
     padding-left: 15px;
 }
