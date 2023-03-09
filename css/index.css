@@ -19,6 +19,11 @@ header.main {
     line-height: normal;
 }
 
+.menu-button {
+    background-color: transparent;
+    border-style: none;
+}
+
 nav.main {
     float: right;
     height: 48px;
