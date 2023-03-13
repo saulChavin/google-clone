@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -9,14 +9,12 @@ body, html {
     display: flex;
     flex-direction: column;
     height: 100%;
-    /* min-width: 320px */
 }
 
 header.main {
     display: inline-block;
-    /* flex-grow: 1; */
-    /* height: 60px; */
     line-height: normal;
+    padding: 6px;
 }
 
 .menu-button {
@@ -29,17 +27,35 @@ header.main {
     height: 40px;
     padding: 8px;
     border-radius: 50%;
+    opacity: .6;
 }
 
 .menu-button:hover {
-    background-color: rgba(232, 234, 237, 0.42);
+    background-color: rgba(125, 125, 125, 0.346);
+}
+
+.primary-button {
+    background-color: #1a73e8;
+    color: #FFF;
+    border: 1px solid #1a73e8;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    box-sizing: border-box;
+    height: 36px;
+    width: 100px
+}
+
+#access-button {
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 nav.main {
     float: right;
     height: 48px;
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .shrink0 {
@@ -56,10 +72,19 @@ nav.main {
 .links {
     text-decoration: none;
     text-align: center;
-    color:#121212cb;
-    padding-left: 15px;
+    color: #121212cb;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.gray{
+    color: #70757a;
 }
 
 .links:hover {
     text-decoration: underline;
+}
+
+.flex{
+    display: flex;
 }

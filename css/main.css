@@ -77,13 +77,14 @@ input.search-input {
     border: none;
     font-size: 14px;
     border-radius: 4px;
-    background-color: #70757a37;
+    background-color: #f8f9fa;
 }
 
 .country-footer {
     padding: 15px 30px;
     border-bottom: 1px solid #DADCE0;
     color: #70757a;
+    font-size: 15px;
 }
 
 .info-footer {
