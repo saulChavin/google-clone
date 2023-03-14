@@ -44,7 +44,12 @@ header.main {
     font-weight: 500;
     box-sizing: border-box;
     height: 36px;
-    width: 100px
+    width: 100px;
+}
+
+.primary-button:hover {
+    cursor: pointer;
+    background-color: #1b66c9;
 }
 
 #access-button {

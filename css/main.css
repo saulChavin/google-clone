@@ -48,6 +48,11 @@ div.search-container {
     text-align: center;
 }
 
+.hovered-shadow:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
 input.search-input {
     border: none;
     width: 100%;
@@ -78,6 +83,10 @@ input.search-input {
     font-size: 14px;
     border-radius: 4px;
     background-color: #f8f9fa;
+}
+
+.form-button:hover {
+    cursor: pointer;
 }
 
 .country-footer {
